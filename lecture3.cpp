@@ -52,18 +52,29 @@ using namespace std;
 // }
 
 
-int main(){
-    int a;
-    cin>>a;
-    int sum =0 ;
-    for (int i = 1; i <= a;i = i+2)
-    {
-        sum = sum + i ;
-        cout << i << endl ;
-        
+// int main(){
+//     int a;
+//     cin>>a;
+//     int sum =0 ;
+//     for (int i = 1; i <= a;i = i+2)
+//     {
+//         sum = sum + i ;
+//         cout << i << endl ;
+//     }
+//         cout << sum << endl ;
+    
+// }
 
-        /* code */
+int main(){
+    
+    for (int i = 0; i <= 3; i++)
+    {
+        for (int j= 0; j <=3; j++)
+        {
+            /* code */
+        }
+        
     }
-        cout << sum << endl ;
+    
     
 }
