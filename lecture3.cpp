@@ -38,17 +38,32 @@ using namespace std;
 
 
 
-int main(){
-    char a;
-    cin>>a;
-    if (a>'a' && a<'z')
-    {
-        cout << "a---z" << endl;
-    }else if(a>'A' && a<'Z'){
-        cout << "A---Z" << endl;
-    }else if (a>'0' && a<'9')
-    {
-        cout << "0---9" << endl;
-    }
+// int main(){
+//     int n ;
+//     cin>> n;
 
+//     while (n>0)
+//     {
+//         cout << "this is" << n << endl ;
+//         n--;
+//     }
+    
+
+// }
+
+
+int main(){
+    int a;
+    cin>>a;
+    int sum =0 ;
+    for (int i = 1; i <= a;i = i+2)
+    {
+        sum = sum + i ;
+        cout << i << endl ;
+        
+
+        /* code */
+    }
+        cout << sum << endl ;
+    
 }
